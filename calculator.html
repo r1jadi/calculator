@@ -7,36 +7,39 @@
     <p class="calculation" id ="result"></p>
 
     <p>
-        <button class="calculator-button gray-button">1</button>
-        <button class="calculator-button gray-button">2</button>
-        <button class="calculator-button gray-button">3</button>
-        <button class="calculator-button orange-button">+</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('1')">1</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('2')">2</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('3')">3</button>
+        <button class="calculator-button orange-button" onclick="shkruajVleren('+')">+</button>
     </p>
 
     <p>
-        <button class="calculator-button gray-button">4</button>
-        <button class="calculator-button gray-button">5</button>
-        <button class="calculator-button gray-button">6</button>
-        <button class="calculator-button orange-button">-</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('4')">4</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('5')">5</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('6')">6</button>
+        <button class="calculator-button orange-button" onclick="shkruajVleren('-')">-</button>
     </p>
 
     <p>
-        <button class="calculator-button gray-button">7</button>
-        <button class="calculator-button gray-button">8</button>
-        <button class="calculator-button gray-button">9</button>
-        <button class="calculator-button orange-button">*</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('7')">7</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('8')">8</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('9')">9</button>
+        <button class="calculator-button orange-button" onclick="shkruajVleren('*')">*</button>
     </p>
 
     <p>
-        <button class="calculator-button gray-button">0</button>
-        <button class="calculator-button gray-button">.</button>
-        <button class="calculator-button gray-button">=</button>
-        <button class="calculator-button orange-button">/</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('0')">0</button>
+        <button class="calculator-button gray-button" onclick="shkruajVleren('.')">.</button>
+        <button class="calculator-button gray-button" onclick="kalkulo()">=</button>
+        <button class="calculator-button orange-button" onclick="shkruajVleren('/')">/</button>
     </p>
 
     <p>
-        <button class="calculator-button gray-button clear-button">Clear</button>
+        <button class="calculator-button gray-button clear-button" onclick="fshije()">Clear</button>
     </p>
 
+
+
+    <script src="calculator.js"></script>
 </body>
 </html>
