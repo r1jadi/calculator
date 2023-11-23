@@ -3,6 +3,11 @@
 
 
     function shkruajVleren(vlera){
+
+        if(rezultati.textContent.includes('Infinity')){
+            fshije();
+        }
+
         rezultati.textContent += vlera;
     }
 
@@ -11,5 +16,5 @@
     }
 
     function kalkulo(){
-        rezultati.parseInt() = vlera;
+        rezultati.textContent = eval(rezultati.textContent);
     }
